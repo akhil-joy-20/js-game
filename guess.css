@@ -1,0 +1,119 @@
+#body{
+    margin: 0%;
+    background-color: #009B77;
+}
+#main-div{
+    margin: 5%;
+    background-color: aliceblue;    
+}
+.header{
+   text-align: center; 
+   color: rgb(233, 96, 5);
+}
+.inner-div-1{
+    text-align: end;
+}
+.inst{
+   cursor: pointer;
+}
+.inst:hover{
+    color: rgb(12, 8, 231);
+}
+.numbers{
+    margin: 3.3%;
+}
+.numbers1{
+    margin: 3.1%;
+    background-color: rgb(154, 26, 158);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: .5em;
+    cursor: pointer;
+}
+.numbers1:hover{
+    background-color: rgb(16, 179, 57);
+}
+.main{
+    margin: 0%;
+}
+.section-1{
+    float: left;
+    width: 33.5%;
+    height: 230px;
+    background-color: aliceblue;
+}
+.selection{
+    text-align: center;
+    padding: .5em;
+}
+#point5{
+    padding: .6em;
+    pointer-events: none;
+}
+#point31{
+    padding: .6em;
+    pointer-events: none;
+}
+#point32{
+    padding: .6em;
+    pointer-events: none;
+}
+.section-2{
+    float: left;
+    width: 33%;
+    height: 230px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.random-btm{
+    margin-top: 30px;
+    padding: .9em;
+    background-color: rgb(10, 194, 40);
+    color: #ffffff;
+    font-weight: bolder;
+}
+.random-btm:hover{
+    background-color: rgb(62, 202, 69);
+    cursor: pointer;
+}
+#random{
+    padding: .6em;
+    pointer-events: none;
+}
+#rounds{
+    margin-top: 30px;
+    pointer-events: none;
+}
+.section-3{
+    float: left;
+    width: 33.5%;
+    height: 230px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.score{
+    margin-top: 30px;  
+}
+#disp1{
+    padding: .8em;
+    pointer-events: none;
+}
+#disp2{
+    padding: .8em;
+    pointer-events: none;
+}
+#submit{
+    margin-top: 30px;   
+    padding: .3em; 
+    margin-left: 70px;
+    background-color: rgb(247, 60, 3);
+    color: blanchedalmond;
+    border-radius: 7px;
+}
+#try{
+    padding: .3em;
+    margin-left: 40px;
+    background-color: rgb(247, 60, 3);
+    color: blanchedalmond;
+    border-radius: 7px;
+}

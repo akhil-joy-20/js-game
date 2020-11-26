@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simple guess game using html/css/java script">
+    <meta name="keywords" content="HTML, CSS, JavaScript, game, guess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="guess.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Guess the number</title>
+</head>
+<body id="body">
+    <div id = "main-div">
+
+        <header class="header">
+            <h1><u><b>GUESS THE NUMBER</b></u></h1>
+        </header>
+        <div class="inner-div-1">
+            <h6 class="inst" onclick="instructions()">INSTRUCTIONS</h6>
+        </div>
+        <div>
+            <h4><b>Select 1 number from below:</b></h4>
+        </div>
+        <div class="numbers">
+            <button onclick="displ(0)" class="numbers1">0</button>
+            <button onclick="displ(1)" class="numbers1">1</button>
+            <button onclick="displ(2)" class="numbers1">2</button>
+            <button onclick="displ(3)" class="numbers1">3</button>
+            <button onclick="displ(4)" class="numbers1">4</button>
+            <button onclick="displ(5)" class="numbers1">5</button>
+            <button onclick="displ(6)" class="numbers1">6</button>
+            <button onclick="displ(7)" class="numbers1">7</button>
+            <button onclick="displ(8)" class="numbers1">8</button>
+            <button onclick="displ(9)" class="numbers1">9</button>
+            <button onclick="displ(10)" class="numbers1">10</button>   
+        </div>
+        
+        <main class="main">
+            <section class="section-1">
+                <h4>your selection:</h4>
+                <form class="selection">
+                    <label>predecessor: </label><input id="point31" type="number" placeholder="3 points" ><br><br>
+                    <label>number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input id="point5" type="number" placeholder="5 points"><br><br>
+                    <label>successor: &nbsp;&nbsp;</label><input id="point32" type="number" placeholder="3 points"><br><br>
+                </form>
+            </section >
+            <section class="section-2">
+                <button  onclick="randomnum()"  class="random-btm">GENERATE <BR><BR> RANDOM NUMBER</button>
+                    <form>
+                        <br><br>
+                        <input id="random"  type="number" placeholder="random number"><br>
+                        <label>rounds:</label><input id="rounds" type="text" placeholder="0" size="1">
+                    </form>
+            </section>
+            <section class="section-3">
+                <form class="score">
+                    <label>summary:</label>&nbsp;&nbsp;<input id="disp1" type="text" placeholder="Best of luck"><br><br><br>
+                    <label> &nbsp;&nbsp;score:&nbsp;&nbsp;&nbsp;</label>&nbsp;&nbsp;<input id="disp2" type="number" placeholder="0">
+                    <br><button id="submit" onclick="sub()">Submit</button>
+                        <button id="try" >Restart</button>
+                </form>
+            </section>
+        </main>
+
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>
